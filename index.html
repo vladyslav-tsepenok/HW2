@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>starter code</title>
-<link rel="stylesheet" type="text/css" href="site.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cool calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<h2>starter project</h2>
-
-<button type="button" id="calculate" onclick="calculateAverage()">Average</button>
-<div>
-    <br />
-    <input type="number" value="0" id="value1" />
-    <input type="number" value="0" id="value2" />
-    <input type="number" value="0" id="value3" />
-    <br />
-</div>
-<h3 id="result">0</h3>
+    <main>
+        <h1>Three Buttons</h1>
+        <label for="field1"></label><input id="field1" type="number"><div></div>
+        <label for="field2"></label><input id="field2" type="number"><div></div>
+        <label for="field3"></label><input id="field3" type="number"><div></div>
+        <button type="button" id="square">Square</button>
+        <button type="button" id="cube">Cube</button>
+        <button type="button" id="toTheFourth" onclick="toTheFourthValues()">ToTheFourth</button>
+    </main>
 
 <script src="main.js"></script>
 </body>
-
 </html>
